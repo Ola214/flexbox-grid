@@ -1,0 +1,15 @@
+.flex-container {
+    display: flex;
+    background-color: lightgreen;
+    /*justify-content: center;*/
+    flex-direction: column;
+}
+
+.flex-container > div {
+    background-color: darkgray;
+    margin: 15px;
+    padding: 25px;
+}
+img {
+    max-width: 100%; /* automatycznie zwiększać lub pomniejszać obrazki */
+}

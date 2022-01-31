@@ -1,0 +1,11 @@
+.flex-container {
+    display:flex;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    background-color: burlywood;
+}
+.flex-container > div {
+    width: 100px;
+    margin: 10px;
+}

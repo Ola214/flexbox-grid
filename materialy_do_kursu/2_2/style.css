@@ -1,0 +1,13 @@
+.flex-container {
+    display:flex;
+    background-color: lightgreen;
+    flex-direction: column;
+}
+.flex-container > div {
+    background-color: darkgray;
+    margin: 15px;
+    padding: 25px;
+}
+img {
+    max-width: 100%;
+}

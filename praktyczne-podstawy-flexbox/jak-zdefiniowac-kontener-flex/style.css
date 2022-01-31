@@ -1,0 +1,22 @@
+.flex-container {
+    display: flex;
+    background-color: blue;
+}
+.flex-container > div { /* nadajemy style divom na pierwszym poziomie zagnieżdżenia */
+    background-color: beige;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+.sub-A {
+    background-color: green;
+    margin: 15px;
+    padding: 10px;
+    font-size: 20px;
+}
+.sub-B {
+    background-color: brown;
+    margin: 20px;
+    padding: 30px;
+    font-size: 10px;
+}

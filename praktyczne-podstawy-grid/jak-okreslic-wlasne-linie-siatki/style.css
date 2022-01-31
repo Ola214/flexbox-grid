@@ -1,0 +1,29 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 35px 25px;
+    background-color: burlywood;
+    padding: 15px;
+}
+.grid-item {
+    background-color: darkcyan;
+    border: 2px solid brown;
+    padding: 30px;
+}
+.item1 {
+    grid-column-start: 1;
+    grid-column-end: 4; /* do czwartej kolumny dotknie, ale nie zajmie jej - długość 3 kolumn będzie miał item1*/
+}
+.item3 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.item5 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

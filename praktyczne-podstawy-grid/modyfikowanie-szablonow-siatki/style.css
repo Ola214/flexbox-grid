@@ -1,0 +1,21 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 100px 130px auto 60px;
+    grid-template-rows: 80px 200px;
+    justify-content: start;
+    grid-gap: 20px 15px;
+    background-color: chocolate;
+    padding: 20px;
+}
+.grid-item {
+    background-color: cadetblue;
+    border:1px solid black;
+    padding: 25px;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
